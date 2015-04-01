@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Nighthawk.h"
 
 @interface ViewController ()
 
@@ -15,6 +16,9 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    NSLog(@"from view 1");
+       [[Nighthawk sharedInstance] logMessage:@"test"
+                                   message:@"from view 1"];
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }

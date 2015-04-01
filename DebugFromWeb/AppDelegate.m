@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Nighthawk.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *key = @"9f2f82746cef41c3418c74bd8faa87fcac6990eb84563ff034991772fc277d7e";
+    [Nighthawk initializeWithAPIKey:key];
+    [Nighthawk sharedInstance].serverLogTags = @[@"test"];
+
     return YES;
 }
 

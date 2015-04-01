@@ -14,6 +14,14 @@
 		9FF2EC8F1ACAB0DD00CE8657 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF2EC8E1ACAB0DD00CE8657 /* Images.xcassets */; };
 		9FF2EC921ACAB0DD00CE8657 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF2EC901ACAB0DD00CE8657 /* LaunchScreen.xib */; };
 		9FF2EC9E1ACAB0DD00CE8657 /* DebugFromWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2EC9D1ACAB0DD00CE8657 /* DebugFromWebTests.m */; };
+		9FF2ECAB1ACAB1D900CE8657 /* Nighthawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF2ECA81ACAB1D900CE8657 /* Nighthawk.framework */; };
+		9FF2ECAC1ACAB1D900CE8657 /* Nighthawk.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2ECAA1ACAB1D900CE8657 /* Nighthawk.m */; };
+		9FF2ECAE1ACAB1F300CE8657 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF2ECAD1ACAB1F300CE8657 /* libsqlite3.dylib */; };
+		9FF2ECB01ACAB20300CE8657 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF2ECAF1ACAB20300CE8657 /* libz.dylib */; };
+		9FF2ECB21ACAB21000CE8657 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF2ECB11ACAB21000CE8657 /* SystemConfiguration.framework */; };
+		9FF2ECB41ACAB21C00CE8657 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF2ECB31ACAB21C00CE8657 /* CFNetwork.framework */; };
+		9FF2ECB71ACAB46B00CE8657 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2ECB61ACAB46B00CE8657 /* ViewController2.m */; };
+		9FF2ECBA1ACAB48000CE8657 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2ECB91ACAB48000CE8657 /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,17 @@
 		9FF2EC971ACAB0DD00CE8657 /* DebugFromWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebugFromWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF2EC9C1ACAB0DD00CE8657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FF2EC9D1ACAB0DD00CE8657 /* DebugFromWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugFromWebTests.m; sourceTree = "<group>"; };
+		9FF2ECA81ACAB1D900CE8657 /* Nighthawk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nighthawk.framework; sourceTree = "<group>"; };
+		9FF2ECA91ACAB1D900CE8657 /* Nighthawk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nighthawk.h; sourceTree = "<group>"; };
+		9FF2ECAA1ACAB1D900CE8657 /* Nighthawk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nighthawk.m; sourceTree = "<group>"; };
+		9FF2ECAD1ACAB1F300CE8657 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9FF2ECAF1ACAB20300CE8657 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9FF2ECB11ACAB21000CE8657 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9FF2ECB31ACAB21C00CE8657 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9FF2ECB51ACAB46B00CE8657 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		9FF2ECB61ACAB46B00CE8657 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		9FF2ECB81ACAB48000CE8657 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		9FF2ECB91ACAB48000CE8657 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF2ECB41ACAB21C00CE8657 /* CFNetwork.framework in Frameworks */,
+				9FF2ECB21ACAB21000CE8657 /* SystemConfiguration.framework in Frameworks */,
+				9FF2ECB01ACAB20300CE8657 /* libz.dylib in Frameworks */,
+				9FF2ECAE1ACAB1F300CE8657 /* libsqlite3.dylib in Frameworks */,
+				9FF2ECAB1ACAB1D900CE8657 /* Nighthawk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +84,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0A59A91ACBFE060029EE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF2ECB31ACAB21C00CE8657 /* CFNetwork.framework */,
+				9FF2ECB11ACAB21000CE8657 /* SystemConfiguration.framework */,
+				9FF2ECAF1ACAB20300CE8657 /* libz.dylib */,
+				9FF2ECAD1ACAB1F300CE8657 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F0A59AA1ACBFFBB0029EE99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FF2EC881ACAB0DD00CE8657 /* ViewController.h */,
+				9FF2EC891ACAB0DD00CE8657 /* ViewController.m */,
+				9FF2ECB51ACAB46B00CE8657 /* ViewController2.h */,
+				9FF2ECB61ACAB46B00CE8657 /* ViewController2.m */,
+				9FF2ECB81ACAB48000CE8657 /* ViewController3.h */,
+				9FF2ECB91ACAB48000CE8657 /* ViewController3.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		9FF2EC751ACAB0DD00CE8657 = {
 			isa = PBXGroup;
 			children = (
 				9FF2EC801ACAB0DD00CE8657 /* DebugFromWeb */,
+				9F0A59A91ACBFE060029EE99 /* Frameworks */,
 				9FF2EC9A1ACAB0DD00CE8657 /* DebugFromWebTests */,
 				9FF2EC7F1ACAB0DD00CE8657 /* Products */,
 			);
@@ -81,11 +130,11 @@
 		9FF2EC801ACAB0DD00CE8657 /* DebugFromWeb */ = {
 			isa = PBXGroup;
 			children = (
+				9FF2ECA71ACAB1D900CE8657 /* Nighthawk */,
 				9FF2EC851ACAB0DD00CE8657 /* AppDelegate.h */,
 				9FF2EC861ACAB0DD00CE8657 /* AppDelegate.m */,
-				9FF2EC881ACAB0DD00CE8657 /* ViewController.h */,
-				9FF2EC891ACAB0DD00CE8657 /* ViewController.m */,
 				9FF2EC8B1ACAB0DD00CE8657 /* Main.storyboard */,
+				9F0A59AA1ACBFFBB0029EE99 /* Controllers */,
 				9FF2EC8E1ACAB0DD00CE8657 /* Images.xcassets */,
 				9FF2EC901ACAB0DD00CE8657 /* LaunchScreen.xib */,
 				9FF2EC811ACAB0DD00CE8657 /* Supporting Files */,
@@ -117,6 +166,16 @@
 				9FF2EC9C1ACAB0DD00CE8657 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FF2ECA71ACAB1D900CE8657 /* Nighthawk */ = {
+			isa = PBXGroup;
+			children = (
+				9FF2ECA81ACAB1D900CE8657 /* Nighthawk.framework */,
+				9FF2ECA91ACAB1D900CE8657 /* Nighthawk.h */,
+				9FF2ECAA1ACAB1D900CE8657 /* Nighthawk.m */,
+			);
+			path = Nighthawk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +280,10 @@
 			files = (
 				9FF2EC8A1ACAB0DD00CE8657 /* ViewController.m in Sources */,
 				9FF2EC871ACAB0DD00CE8657 /* AppDelegate.m in Sources */,
+				9FF2ECBA1ACAB48000CE8657 /* ViewController3.m in Sources */,
+				9FF2ECB71ACAB46B00CE8657 /* ViewController2.m in Sources */,
 				9FF2EC841ACAB0DD00CE8657 /* main.m in Sources */,
+				9FF2ECAC1ACAB1D900CE8657 /* Nighthawk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +362,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -345,6 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DebugFromWeb/Nighthawk",
+				);
 				INFOPLIST_FILE = DebugFromWeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DebugFromWeb/Nighthawk",
+				);
 				INFOPLIST_FILE = DebugFromWeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +486,7 @@
 				9FF2ECA31ACAB0DD00CE8657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FF2ECA41ACAB0DD00CE8657 /* Build configuration list for PBXNativeTarget "DebugFromWebTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +495,7 @@
 				9FF2ECA61ACAB0DD00CE8657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
