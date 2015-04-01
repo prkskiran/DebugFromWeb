@@ -16,7 +16,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    NSLog(@"from view 1");
+    NSLog(@"...from view  1");
        [[Nighthawk sharedInstance] logMessage:@"test"
                                    message:@"from view 1"];
     [super viewDidLoad];
